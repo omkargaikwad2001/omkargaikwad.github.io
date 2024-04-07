@@ -309,6 +309,7 @@ a {
 }
 #project3 {
   background-image: url(./images/projects/project3.png);
+  background-size: cover;
 }
 
 @media (max-width: 1300px) {
@@ -351,6 +352,11 @@ a {
   #project2 {
     margin-left: 0;
   }
+
+  #project3 {
+    margin-right: 0;
+  }
+
   .project-skill-container {
     width: 100%;
   }
